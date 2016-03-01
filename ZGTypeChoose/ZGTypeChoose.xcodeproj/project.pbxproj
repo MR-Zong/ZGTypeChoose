@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EFC9D9331C85479900CF5253 /* SeaCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9D9321C85479900CF5253 /* SeaCollectionViewFlowLayout.m */; };
+		EFC9D9361C8547B300CF5253 /* ZGTypeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC9D9351C8547B300CF5253 /* ZGTypeCollectionViewCell.m */; };
+		EFC9D9381C85A12200CF5253 /* ZGTypeChoose.gif in Resources */ = {isa = PBXBuildFile; fileRef = EFC9D9371C85A12200CF5253 /* ZGTypeChoose.gif */; };
 		EFF3F8A11C843C8C00ECC468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF3F8A01C843C8C00ECC468 /* main.m */; };
 		EFF3F8A41C843C8C00ECC468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF3F8A31C843C8C00ECC468 /* AppDelegate.m */; };
 		EFF3F8A71C843C8C00ECC468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF3F8A61C843C8C00ECC468 /* ViewController.m */; };
@@ -15,7 +18,6 @@
 		EFF3F8AF1C843C8C00ECC468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF3F8AD1C843C8C00ECC468 /* LaunchScreen.storyboard */; };
 		EFF3F8BA1C843C8C00ECC468 /* ZGTypeChooseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF3F8B91C843C8C00ECC468 /* ZGTypeChooseTests.m */; };
 		EFF3F8C51C843C8C00ECC468 /* ZGTypeChooseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF3F8C41C843C8C00ECC468 /* ZGTypeChooseUITests.m */; };
-		EFF3F8D61C843CFE00ECC468 /* SeaCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFF3F8D51C843CFE00ECC468 /* SeaCollectionViewFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EFC9D9311C85479900CF5253 /* SeaCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeaCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		EFC9D9321C85479900CF5253 /* SeaCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeaCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		EFC9D9341C8547B300CF5253 /* ZGTypeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTypeCollectionViewCell.h; sourceTree = "<group>"; };
+		EFC9D9351C8547B300CF5253 /* ZGTypeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTypeCollectionViewCell.m; sourceTree = "<group>"; };
+		EFC9D9371C85A12200CF5253 /* ZGTypeChoose.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ZGTypeChoose.gif; sourceTree = "<group>"; };
 		EFF3F89C1C843C8C00ECC468 /* ZGTypeChoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGTypeChoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF3F8A01C843C8C00ECC468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFF3F8A21C843C8C00ECC468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +59,6 @@
 		EFF3F8C01C843C8C00ECC468 /* ZGTypeChooseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGTypeChooseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF3F8C41C843C8C00ECC468 /* ZGTypeChooseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGTypeChooseUITests.m; sourceTree = "<group>"; };
 		EFF3F8C61C843C8C00ECC468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFF3F8D41C843CFE00ECC468 /* SeaCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeaCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		EFF3F8D51C843CFE00ECC468 /* SeaCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeaCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EFC9D9301C85479900CF5253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EFC9D9311C85479900CF5253 /* SeaCollectionViewFlowLayout.h */,
+				EFC9D9321C85479900CF5253 /* SeaCollectionViewFlowLayout.m */,
+				EFC9D9341C8547B300CF5253 /* ZGTypeCollectionViewCell.h */,
+				EFC9D9351C8547B300CF5253 /* ZGTypeCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EFF3F8931C843C8C00ECC468 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +137,7 @@
 		EFF3F89F1C843C8C00ECC468 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EFC9D9371C85A12200CF5253 /* ZGTypeChoose.gif */,
 				EFF3F8A01C843C8C00ECC468 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,18 +164,9 @@
 		EFF3F8D21C843CAC00ECC468 /* ZGTypeChoose */ = {
 			isa = PBXGroup;
 			children = (
-				EFF3F8D31C843CAC00ECC468 /* Controller */,
+				EFC9D9301C85479900CF5253 /* View */,
 			);
 			path = ZGTypeChoose;
-			sourceTree = "<group>";
-		};
-		EFF3F8D31C843CAC00ECC468 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				EFF3F8D41C843CFE00ECC468 /* SeaCollectionViewFlowLayout.h */,
-				EFF3F8D51C843CFE00ECC468 /* SeaCollectionViewFlowLayout.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC9D9381C85A12200CF5253 /* ZGTypeChoose.gif in Resources */,
 				EFF3F8AF1C843C8C00ECC468 /* LaunchScreen.storyboard in Resources */,
 				EFF3F8AC1C843C8C00ECC468 /* Assets.xcassets in Resources */,
 				EFF3F8AA1C843C8C00ECC468 /* Main.storyboard in Resources */,
@@ -293,7 +302,8 @@
 			files = (
 				EFF3F8A71C843C8C00ECC468 /* ViewController.m in Sources */,
 				EFF3F8A41C843C8C00ECC468 /* AppDelegate.m in Sources */,
-				EFF3F8D61C843CFE00ECC468 /* SeaCollectionViewFlowLayout.m in Sources */,
+				EFC9D9331C85479900CF5253 /* SeaCollectionViewFlowLayout.m in Sources */,
+				EFC9D9361C8547B300CF5253 /* ZGTypeCollectionViewCell.m in Sources */,
 				EFF3F8A11C843C8C00ECC468 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +530,7 @@
 				EFF3F8CB1C843C8C00ECC468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFF3F8CC1C843C8C00ECC468 /* Build configuration list for PBXNativeTarget "ZGTypeChooseTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +539,7 @@
 				EFF3F8CE1C843C8C00ECC468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFF3F8CF1C843C8C00ECC468 /* Build configuration list for PBXNativeTarget "ZGTypeChooseUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +548,7 @@
 				EFF3F8D11C843C8C00ECC468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
